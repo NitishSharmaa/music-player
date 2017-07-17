@@ -203,3 +203,70 @@ table.dataTable tbody tr {
     margin-bottom: 1rem;
     font-size: 16px;
 }
+.player-buttons .fa {
+    margin-right: 2rem;
+}
+
+.fa.disabled {
+    color: gray;
+}
+#piano{
+  height: 700px;
+  width: 1349px;
+  border: 0px;
+  margin: 0px;
+font-size: 18px;
+background: url("112.jpg");
+background-size: cover;
+}
+.keys{
+height: 100%;
+width: 4.76%;
+border: 1px solid black;
+border-radius: 0px 0px 5px 5px;
+cursor: pointer;
+box-shadow: 0px 5px 1px rgba(32, 32, 32, 0.2);
+-webkit-transition: margin 0.05s ease, backgroud-color 0.05s ease, box-shadow 0.05s ease;
+background: white;
+}
+.piano-container{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  position: relative;
+  top: 200px;
+  left: 300px;
+}
+.key:hover{
+  background-color: rgb(255,192,32);
+}
+.black{
+  width: 30px;
+  height: 120px;
+  background-color: black;
+  position: absolute;
+}
+.label{
+  text-align: center;
+position: absolute;
+  top: 170px;
+  width: 36px;
+  height: 29px;
+}
+.Blabel{
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  width: 30px;
+  height: 29px;
+  color: white;
+}
+h2{
+  font-size: 60px;
+  color: white;
+margin: 0;
+margin-left: 674px;
+position: relative;
+left: -150px;
+top: 85px;
+}
